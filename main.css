@@ -1,40 +1,170 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    line-height: 30px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(mountain.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-h1 {
-    font-family: "comic san ms", 'Helvetica Neue', sans-serif;
-    font-size: 500%;
-}
-
-#home {
-    margin: 0 auto;
-}
-
-#judulHome {
-    color: white;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: goldenrod;
-}
-
-.content {
-    color: white;
-}
-
-#picProfile {
-    border-radius: 80%;
-    width: 17%;
-    height: 40%;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-}
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        section {
+            height: 100%;
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .purpleBg {
+            background-color: #8b4367;
+        }
+        /*----------------------------atur navbar-------------------------*/
+        
+        .collapse {
+            margin-left: 60%;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link {
+            font-family: "Bree Serif";
+            font-size: 22px;
+            color: white !important;
+        }
+        
+        .nav-item {
+            text-align: right;
+        }
+        
+        .darkblueBg {
+            background-color: #2D3561;
+        }
+        
+        .greenBg {
+            background-color: #52DE97;
+            overflow: hidden;
+        }
+        
+        .nav-top {
+            background-color: #ff6464;
+            overflow: hidden;
+        }
+        
+        .nav-top a {
+            text-decoration: none;
+            float: left;
+        }
+        /*----------------------------atur navbar-------------------------*/
+        
+        .fontBree {
+            font-family: "Bree Serif";
+        }
+        
+        .fontFredoka {
+            font-family: "Fredoka One";
+        }
+        
+        .colorDarkBlue {
+            color: #2D3561;
+        }
+        
+        #isiHome {
+            padding-top: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        
+        #home h1 {
+            font-size: 130px;
+            color: #FFB961;
+        }
+        
+        #home h3 {
+            font-size: 20px;
+            color: #ffffff;
+        }
+        /*---------------------------ABOUT-----------*/
+        
+        .container {
+            padding-top: 10%;
+        }
+        
+        .containerAbout {
+            padding-top: 5%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        
+        .fotoProfile {
+            max-width: 75%;
+            border-radius: 50%;
+        }
+        
+        .paragAbout {
+            width: 130px;
+            height: 200px;
+            text-align: center;
+            padding-top: 2%;
+            padding-left: 8%;
+            padding-right: 25%;
+            padding-bottom: 30%;
+            height: 500px;
+            width: 800px;
+            font-family: adobe-gothic-std, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: #2D3561;
+        }
+        /*-----------------------------backgrounnd------------------*/
+        
+        .marginBackground {
+            padding-top: 11%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 10%;
+        }
+        
+        .judulBackground {
+            font-family: adobe-gothic-std, sans-serif;
+            font-size: 80px;
+            color: #FFB961;
+            font-weight: bold;
+        }
+        
+        .marginBackgroundExperience {
+            padding-top: 10%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 10%;
+        }
+        
+        #isiEdu {
+            padding-top: 0.5%;
+            font-family: adobe-gothic-std, sans-serif;
+            font-size: 35px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        /*-----------------CONTACT------------*/
+        
+        #judulExp {
+            color: #FFB961;
+        }
+        
+        #isiExp {
+            padding-top: 0.5%;
+            font-family: adobe-gothic-std, sans-serif;
+            font-size: 35px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        /*------------------------*/
+        
+        .portof {
+            padding-top: 5% !important;
+        }
+        
+        .imgPortof {
+            border-radius: 12%;
+            width: 65%;
+        }
+        
+        #judulContact {
+            padding-top: 8%;
+            font-family: adobe-gothic-std, sans-serif;
+            font-size: 80px;
+            color: #2D3561;
+            font-weight: bold;
+        }
