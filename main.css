@@ -77,26 +77,15 @@
         }
         /*---------------------------ABOUT-----------*/
         
-        .container {
-            padding-top: 10%;
-        }
-        
-        .containerAbout {
-            padding-top: 5%;
-            padding-left: 20%;
-            padding-right: 20%;
-        }
-        
-        .fotoProfile {
-            max-width: 75%;
-            border-radius: 50%;
+        .media {
+            padding-top: 11%;
         }
         
         .paragAbout {
             width: 130px;
             height: 200px;
-            text-align: center;
-            padding-top: 2%;
+            text-align: left;
+            padding-top: -3%;
             padding-left: 8%;
             padding-right: 25%;
             padding-bottom: 30%;
@@ -167,4 +156,8 @@
             font-size: 80px;
             color: #2D3561;
             font-weight: bold;
+        }
+        
+        .kontak {
+            padding-top: 5%
         }
