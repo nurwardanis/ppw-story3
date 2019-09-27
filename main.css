@@ -15,7 +15,7 @@
         /*----------------------------atur navbar-------------------------*/
         
         .collapse {
-            margin-left: 60%;
+            margin-left: 70%;
         }
         
         .navbar-dark .navbar-nav .nav-link {
@@ -61,7 +61,7 @@
         }
         
         #isiHome {
-            padding-top: 15%;
+            padding-top: 20%;
             padding-left: 5%;
             padding-right: 5%;
         }
@@ -77,23 +77,22 @@
         }
         /*---------------------------ABOUT-----------*/
         
-        .media {
-            padding-top: 11%;
+        .row {
+            padding: 3%;
         }
         
-        .paragAbout {
-            width: 130px;
-            height: 200px;
-            text-align: left;
-            padding-top: -3%;
-            padding-left: 8%;
-            padding-right: 25%;
-            padding-bottom: 30%;
-            height: 500px;
-            width: 800px;
-            font-family: adobe-gothic-std, sans-serif;
-            font-weight: bold;
-            font-size: 20px;
+        .imageAbout {
+            width: 300px;
+            border-radius: 50%;
+            margin-bottom: 5%;
+        }
+        
+        #judulAbout {
+            padding-top: 7%;
+        }
+        
+        #judulAbout h2 {
+            font-size: 100px;
             color: #2D3561;
         }
         /*-----------------------------backgrounnd------------------*/
@@ -102,7 +101,6 @@
             padding-top: 11%;
             padding-left: 3%;
             padding-right: 3%;
-            padding-bottom: 10%;
         }
         
         .judulBackground {
@@ -114,9 +112,8 @@
         
         .marginBackgroundExperience {
             padding-top: 10%;
-            padding-left: 3%;
-            padding-right: 3%;
-            padding-bottom: 10%;
+            padding-left: 2%;
+            padding-right: 2%;
         }
         
         #isiEdu {
@@ -151,7 +148,7 @@
         }
         
         #judulContact {
-            padding-top: 8%;
+            padding-top: 13%;
             font-family: adobe-gothic-std, sans-serif;
             font-size: 80px;
             color: #2D3561;
@@ -159,5 +156,72 @@
         }
         
         .kontak {
-            padding-top: 5%
+            padding-top: 1%
+        }
+        
+        .imgKontak {
+            padding-bottom: 5%;
+            padding-right: 0.3%;
+            width: 150px;
+        }
+        
+        @media screen and (max-width: 870px) {
+            #isiHome {
+                padding-top: 33%;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            #home h1 {
+                font-size: 100px;
+            }
+            #judulAbout {
+                padding-top: 15%;
+            }
+            #judulAbout h2 {
+                font-size: 50px;
+                color: #2D3561;
+            }
+            .imageAbout {
+                width: 135px;
+                border-radius: 50%;
+            }
+            .imgPortof {
+                margin-bottom: 3%;
+                max-width: 90px;
+            }
+            /*--------------EDUCATIONS----------*/
+            .judulBackground {
+                padding-top: 17%;
+                font-family: adobe-gothic-std, sans-serif;
+                font-size: 65px;
+                color: #FFB961;
+                font-weight: bold;
+            }
+            /*------------EXPERIENCES-----------*/
+            .marginBackgroundExperience {
+                padding-top: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            #isiExp {
+                font-family: adobe-gothic-std, sans-serif;
+                font-size: 23px;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            /*-------------CONTACT------------*/
+            #judulContact {
+                padding-top: 17%;
+                font-family: adobe-gothic-std, sans-serif;
+                font-size: 75px;
+                color: #2D3561;
+                font-weight: bold;
+            }
+            .kontak {
+                padding-top: 0%
+            }
+            .imgKontak {
+                padding-right: 0.3%;
+                width: 90px;
+            }
         }
